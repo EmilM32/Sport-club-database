@@ -30,10 +30,8 @@ public class Main extends JFrame{
                 String pass = haslo.getText();
                 if(pass.equals(tangun))
                     new group().setVisible(true);
-                 //   new add_new().setVisible(true);
                 else
                     System.out.println("Złe hasło!");
-                
             }
         });
 
